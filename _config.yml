@@ -1,0 +1,19 @@
+title: Nicht
+description: A moody first-person puzzle adventure about color and emotion.
+url: https://notreal.github.io
+baseurl: /nicht
+
+# Jekyll configuration
+theme: null
+plugins: []
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
