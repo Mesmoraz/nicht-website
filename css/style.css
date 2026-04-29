@@ -540,6 +540,11 @@ li {
    ROADMAP STYLES
    ============================================ */
 
+.roadmap-section {
+    padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-xxl);
+    background: linear-gradient(180deg, rgba(10, 10, 10, 0.98), rgba(20, 20, 20, 0.98));
+}
+
 .roadmap-timeline {
     position: relative;
     padding: var(--spacing-xl) 0;
@@ -571,6 +576,15 @@ li {
     margin-left: 50%;
     margin-right: 0;
     padding-left: var(--spacing-lg);
+}
+
+.roadmap-item__content {
+    background-color: rgba(18, 18, 18, 0.96);
+    border: 1px solid rgba(196, 30, 58, 0.12);
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    border-radius: 2px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .roadmap-item__marker {
